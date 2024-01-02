@@ -173,7 +173,7 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -184,7 +184,7 @@ a {
 }
 
 /* 当用户点击图标时，“responsive”响应类被添加到带有 JavaScript 的 topnav 中。 此类使 topnav 在小屏幕上看起来不错（垂直显示链接而不是水平显示链接）*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -200,10 +200,8 @@ a {
 
 /*主体内容*/
 #main {
-	padding-top: 16px;
-    padding-left: 16px;
-	padding-right: 16px;
-	padding-bottom:16px;
+	height: 650px;
+	padding: 16px;
 	background-color: #f7f7f7;
     position: relative;
 	overflow-x: hidden;
@@ -211,8 +209,8 @@ a {
     transition: margin-left 0.5s ,margin-top 0.5s;
 }
  
-/*当文档高度小于450px时，改变padding属性和字体大小*/
-@media screen and (max-width: 800px) {
+/*当文档高度小于800px时，改变padding属性和字体大小*/
+@media screen and (max-width: 1200px) {
     .sidenav {
 		width: 0;
     }

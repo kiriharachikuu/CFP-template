@@ -4,8 +4,6 @@ ul, ol {
     list-style: none
 }
 
-
-
 .topics-Container {
     width: 79.16667vw;
     margin: 0 auto
@@ -309,19 +307,19 @@ ul, ol {
     height: 100%;
     border-radius: 1.5625vw;
     background-color: #fff;
-    box-shadow: 0 1.30208vw 2.60417vw rgba(67, 160, 160, .2);
+    box-shadow: 0 1.30208vw 2.60417vw rgba(10, 10, 10, 0.2);
     transition: box-shadow .2s
 }
 
 @media screen and (min-width:768px) {
     .st-Topics_Link {
-        box-shadow: 0 10px 20px rgba(67, 160, 160, .2)
+        box-shadow: 0 10px 20px rgba(10, 10, 10, 0.2)
     }
 }
 
 @media screen and (min-width:1921px) {
     .st-Topics_Link {
-        box-shadow: _vwPC(0) _vwPC(10) _vwPC(20) rgba(67, 160, 160, .2)
+        box-shadow: _vwPC(0) _vwPC(10) _vwPC(20) rgba(10, 10, 10, 0.2)
     }
 }
 
@@ -399,7 +397,7 @@ ul, ol {
 
 .st-Topics_Figure {
     position: relative;
-    background-color: rgba(91, 220, 220, 0);
+    background-color: rgba(10, 10, 10, 0.2);
     transition: background-color .2s
 }
 
