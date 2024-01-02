@@ -41,6 +41,7 @@ a {
 }
 
 .sidenav p {
+	min-width: 200px;
     position: absolute;
     top: 630px;
 	margin-left: 32px;
@@ -52,6 +53,7 @@ a {
 }
 
 .sidenav a {
+	min-width: 100px;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -67,7 +69,7 @@ a {
 .sidenav .closebtn {
     position: absolute;
     top: 500px;
-    right: 25px;
+    right: -40px;
     font-size: 64px;
     margin-left: 50px;
 }
