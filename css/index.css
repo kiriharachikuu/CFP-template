@@ -56,7 +56,7 @@ a {
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: opacity 0.3s; 
+    transition: 0.3s; 
 }
  
 .sidenav a:hover,.sidenav a:focus, .offcanvas a:focus{
@@ -200,6 +200,8 @@ a {
 
 /*主体内容*/
 #main {
+	max-width: 1200px;
+	min-width: 400px;
 	height: 650px;
 	padding: 16px;
 	background-color: #f7f7f7;

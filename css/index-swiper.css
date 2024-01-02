@@ -128,8 +128,9 @@
 
 @media (max-width: 600px) {
 	.swiper {
+		top: 70px;
 	    width: 20.75rem;
-	    height: 22.75rem;
+	    height: 23.75rem;
 	    --swiper-navigation-color: #000;
 	    --swiper-pagination-color: #000
 	}
