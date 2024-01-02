@@ -201,6 +201,7 @@ a {
 
 /*主体内容*/
 #main {
+	min-width: 350px;
 	height: 650px;
 	padding: 16px;
 	background-color: #f7f7f7;
