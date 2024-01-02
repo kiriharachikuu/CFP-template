@@ -53,7 +53,7 @@
 }
 
 #timeline {
-    min-width: 300px;
+	min-width: 300px;
     background: #f7f7f7;
     border-top: 1px solid rgba(191, 191, 191, 0.4);
     border-bottom: 1px solid rgba(191, 191, 191, 0.4);
